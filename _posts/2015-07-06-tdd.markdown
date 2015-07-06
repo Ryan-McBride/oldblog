@@ -1,0 +1,20 @@
+---
+layout: post
+title: "The New York Times, TDD, and You!"
+date: 2015-07-06
+categories: not_code, tdd
+---
+
+##The New York Times, Test Driven Development, and You.
+
+A few days ago, a pattern recognition problem started circulating around the interwebs. The rules were simple: Users received 3 numbers, _'2, 4, 8'_. Below there were text fields for users to enter any 3 numbers. They would return true if the numbers followed the rule, and false if they didn't.
+
+I sent this article around to several people, and the result was the same every time. The rule that jumps out immediately is that each number, must be twice its preceding number. The common path that I saw people take was to first enter _'3, 6, 12'_, to which the test would return true. Next they try something like _'10, 20, 30'_, which will also return true.
+
+Just about everyone I made take this test in front of me, was confident that they had the answer. They would enter something like "numbers must double each time", and hit accept. What they then see, is that the rule is simply "numbers must be larger than their numbers to the left". What this means is that while the tests that the users wrote were passing, they weren't asking the right questions.
+
+This is an important example of confirmation bias, which is one of the great downfalls of people testing software. Often when we test our software, we only test that it works how we expect, and often skip trying to break it.
+
+The only way to test whether a piece of software is working is to try and break it, not to just test the MVP. When I took this test I fell into a similar pattern at first. I tried _'3, 6, 12'_, and then _'10, 20 40'_. The difference in my experience, was that working in QA for 6 years has led me to never trust a passing test. I entered _'0, 0, 0'_ and the test failed, I entered _'1, 2, 3'_ and the test passed. I entered _'3, 2, 1'_ and the test failed. That is when I was pretty sure that the numbers just had to increase, and I happened to be correct.
+
+I'm not bragging about how awesome I am or anything like that, I just happened to have experience here that gave me an edge.  The New York Times used this to show how easy it is to fall victim to confirmation bias, but it's also a great example. We need to break things to get real results.
