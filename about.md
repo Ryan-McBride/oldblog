@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-*Arctic Fox* is a lightweight and customisable Jekyll Theme.
+My name's Ryan McBride. I'm currently enrolled at Telegraph Academy, and striving to become a full time dev, and I'm also one of the top 10 contributers to airbnb's JavaScript style guide, which is pretty cool.
 
-* Author: Camille Diez
-* Github: http://github.com/diezcami
-* Portfolio: http://diezcami.github.io
+* Author: Ryan McBride
+* Github: http://github.com/ryan-mcbride
