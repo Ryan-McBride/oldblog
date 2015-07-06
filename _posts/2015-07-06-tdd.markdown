@@ -5,7 +5,7 @@ date: 2015-07-06
 categories: not_code, tdd
 ---
 
-##The New York Times, Test Driven Development, and You.
+#The New York Times, Test Driven Development, and You.
 
 A few days ago, a pattern recognition problem started circulating around the interwebs. The rules were simple: Users received 3 numbers, _'2, 4, 8'_. Below there were text fields for users to enter any 3 numbers. They would return true if the numbers followed the rule, and false if they didn't.
 
