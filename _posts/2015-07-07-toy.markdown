@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "(Crontab + TGA === "glory")
+title: (Crontab + TGA === "glory")
 date: 2015-07-07
 categories: code, tga
 ---
