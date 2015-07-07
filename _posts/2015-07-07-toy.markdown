@@ -16,9 +16,10 @@ The definition of insanity is doing the same thing over and over, without writin
 ### 1. perfect your function.
 
 The function I used is :
+
 `sh -c 'cd /Users/ryan/Workspace/hr/toy-problems && git pull upstream master'`
 
-`sh -c is` telling the terminal that you're going to be executing a command. The next part (before the &&) is navigating to your toy-problems repo. The example contains my path, but yours may vary based on where you cloned the original repo. You should recognize the third section (after the &&) as your normal command for pulling down changes. Try running this in the console, and you should see your local repo try to get changes from upstream.
+`sh -c` is telling the terminal that you're going to be executing a command. The next part (before the &&) is navigating to your toy-problems repo. The example contains my path, but yours may vary based on where you cloned the original repo. You should recognize the third section (after the &&) as your normal command for pulling down changes. Try running this in the console, and you should see your local repo try to get changes from upstream.
 
 ### 2. create your cronjob.
 
