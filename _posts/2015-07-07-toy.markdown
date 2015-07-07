@@ -1,3 +1,10 @@
+---
+layout: post
+title: "(Crontab + TGA === "glory")
+date: 2015-07-07
+categories: code, tga
+---
+
 This post is for my fellow TGA ballers.
 
 As you know, from this day on we have daily toy problems. This means that every morning before we get started, we have to remember to pull from upstream. This takes precious seconds, and as a dev, you know every second and keystroke counts.
