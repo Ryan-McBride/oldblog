@@ -4,8 +4,6 @@ title: "A Treatise on Min-Maxing Icebreaker Questions"
 date: 2015-07-20
 categories: not_code, devlife
 ---
-# A Treatise on Min-Maxing Icebreaker Questions
-
 **In videogames, min-maxing is the practice of optimizing something as much as possible**. You don&#39;t put magic points on a fighter. Min-maxing is second nature for a developer. We dedicate large portions of our day to trying to make things efficient. It&#39;s not rare to spend hours of time to save ten&nbsp;minutes later.
 
 While this practice is helpful with coding, it usually bleeds into other areas. Take for example the&nbsp;question&nbsp;&quot;If you could only eat one food for the rest of your life what would it be?&quot; The average person, when met with this question will just name their favorite food. Yet developers will take this as a challenge.
