@@ -7,4 +7,4 @@ My name's Ryan McBride. I'm currently enrolled at Telegraph Academy, and strivin
 
 * [Github] (http://github.com/ryan-mcbride)
 * [Twitter] (http://twitter.com/I_Am_Not_Char)
-* [LinkedIn] ()
+* [LinkedIn] (https://www.linkedin.com/pub/ryan-mcbride/101/557/349)
