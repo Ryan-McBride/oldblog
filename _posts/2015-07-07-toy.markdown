@@ -2,7 +2,7 @@
 layout: post
 title: (Crontab + TGA === "glory")
 date: 2015-07-07
-categories: code, tga
+categories: code tga
 ---
 
 This post is for my fellow TGA ballers.
@@ -13,15 +13,27 @@ As you know, from this day on we have daily toy problems. This means that every 
 
 The definition of insanity is doing the same thing over and over, without writing a script to do it for you. In this post, I'm going to walk you through setting up a cronjob to automagically pull from the TGA upstream repo. You'll never have to think about git pulls again! (that's not true).
 
-### 1. perfect your function.
+### 1. Configure your global Git variables.
+
+First things first, your computer will need to be able to access your github account without you being there the enter your password and whatnot. We can handle this by setting your global git variables. This just tells git that you're going to be the only person using git on your computer. You can set them like this:
+
+```
+$ git config --global user.name "Your Name Here"
+$ git config --global user.email "your_email@youremail.com"
+``` 
+After this you will need to enter your username and password one final time, so go ahead and do a pull or push from somewhere to get that out of the way now.
+
+### 2. perfect your function.
 
 The function I used is :
 
-`sh -c 'cd /Users/ryan/Workspace/hr/toy-problems && git pull upstream master'`
+```
+$ sh -c 'cd /Users/ryan/Workspace/hr/toy-problems && git pull upstream master'
+```
 
 `sh -c` is telling the terminal that you're going to be executing a command. The next part (before the &&) is navigating to your toy-problems repo. The example contains my path, but yours may vary based on where you cloned the original repo. You should recognize the third section (after the &&) as your normal command for pulling down changes. Try running this in the console, and you should see your local repo try to get changes from upstream.
 
-### 2. create your cronjob.
+### 3. create your cronjob.
 
 Most of you probably don't have your crontab initialized, and that's okay. The steps are as follows:
 
@@ -31,7 +43,9 @@ This will open an empty crontab in your default editor (vi).
 
 Press 'i' to start inserting text, and type the following:
 
-`0 9 * * * sh -c 'cd /Users/ryan/Workspace/hr/toy-problems && git pull upstream master'`.
+```
+$ 0 9 * * * sh -c 'cd /Users/ryan/Workspace/hr/toy-problems && git pull upstream master'
+```
 
 This tells your computer that on the 0th minute, on the 9th hour, of every day, run this command behind the scenes.
 
@@ -39,6 +53,6 @@ After you enter that line, hit 'esc' to exit insert mode, and then hold shift, a
 
 If it worked, then you should be able to enter `crontab -l` in your terminal, and see the command you entered.
 
-### 3. party.
+### 4. party.
 
 You have now successfully created a crontab, and made your first cronjob! I'm sure you can already think of tons of ways to use this awesome tool. If you want to learn more about cron, check out [this page](https://en.wikipedia.org/wiki/Cron).
