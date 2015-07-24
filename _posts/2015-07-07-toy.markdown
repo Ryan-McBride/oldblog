@@ -55,4 +55,4 @@ If it worked, then you should be able to enter `crontab -l` in your terminal, an
 
 ### 4. party.
 
-You have now successfully created a crontab, and made your first cronjob! I'm sure you can already think of tons of ways to use this awesome tool. If you want to learn more about cron, check out [this page](https://en.wikipedia.org/wiki/Cron).
+You have now successfully created a crontab, and made your first cronjob! I'm sure you can already think of tons of ways to use this awesome tool. If you want to learn more about cron, check out [this page](http://www.pantz.org/software/cron/croninfo.html).
