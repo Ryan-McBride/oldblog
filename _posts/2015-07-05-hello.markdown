@@ -4,4 +4,4 @@ title: "hi world"
 date: 2015-07-05
 categories: not_code, tga
 ---
-Hi. My name is Ryan and this is my dev blog. I'm currently enrolled in Telegraph Academy Cohort 1. It's an honor to be in the first class, and the instructors and my cohort mates are all amazing. I've learned more about coding in the past week than I have in 6 years of working in QA and Software Strategy. It's hard to believe that only one week has passed, and 12 weeks feels like a lifetime, but I'm excited to have this opportunity.
+Hi. My name is Ryan and this is my dev blog. I'm currently enrolled in Telegraph Academy Cohort[0]. It's an honor to be in the first class, and the instructors and my cohort mates are all amazing. I've learned more about coding in the past week than I have in 6 years of working in QA and Software Strategy. It's hard to believe that only one week has passed, and 12 weeks feels like a lifetime, but I'm excited to have this opportunity.
