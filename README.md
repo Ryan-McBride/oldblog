@@ -1,5 +1,5 @@
 # Arctic Fox
-An open source minimal theme for Jekyll, ideal for blogging.
+An open source minimal theme for Jekyll.
 
 View the demo at http://diezcami.github.io/arctic-fox-theme
 
