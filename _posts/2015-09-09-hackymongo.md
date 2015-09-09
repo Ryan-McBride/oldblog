@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Probably the Hackiest DB Duplication Handling Ever
-date: 2015-09-08
+date: 2015-09-09
 categories: code mongo
 ---
 A project I am currently working on deals with big data. (It's called Gitit, check it out [here](https://github.com/Gitit-TGA/Gitit).) It's not BIG big data, but it's still pretty damn big. This has lead to a lot of database problems that I've never encountered before. I've had to deduplicate data before, but not on the scale of minutes per query. Upsert isn't an options when you have a db with millions of documents.
