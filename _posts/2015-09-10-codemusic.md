@@ -22,7 +22,7 @@ For a long time this was my go-to coding playlist. Definitely more upbead than M
 [KATAMARI DAMACY SOUNDTRACK](https://www.youtube.com/watch?v=QAA6hq9RL-4)
 Katamari is a super awesome videogame for the PS2. One of its best features is it's upbeat and unique soundtrack. I like to listen to this when I'm coding in the morning because it helps work me into a good mood. We've all coded while miserable before, and anyone can tell you that the code that results is less than great. Whenever I'm upset, but I still need to bust out some code, this is what I listen to.
 
-[LIGHTNING BOLT](https://open.spotify.com/album/1HN2Y71apfstJXoWxDPTJO<F37>)
+[LIGHTNING BOLT](https://open.spotify.com/album/1HN2Y71apfstJXoWxDPTJO)
 This is my last resort. This is my "The Deadline Was Yesterday" playlist. My "Everything Is On Fire" playlist. It's harsh, heavy, groovy, and perfect for when you need to code fast. It's not technically instrumental, but the words are incomprehensible, so it's not too distracting. This band has gotten me to more deadlines than I'd like to admit, but it's definitely not for everybody.
 
 [BONUS: MY SPOTIFY PLAYLIST](https://open.spotify.com/user/peenmaster/playlist/28Op22YOEHh7gs8J8NYj2r)
