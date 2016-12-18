@@ -9,7 +9,6 @@ twitter_username: NullOfUndefined
 github_username: Ryan-McBride
 
 # Build settings
-markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 redcarpet:
